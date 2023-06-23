@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    display: grid;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    border: 2px black solid;
+}
+
+.headshot {
+    margin: 2rem;
+    margin-left: 4rem;
+    width: 20%;
+    border-radius: 50%;
+}
+
+header {
+    display: flex;
+}
+
+.name {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px black solid;
+}
